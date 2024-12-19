@@ -1,6 +1,13 @@
 This is the git repo of some of the folders in my local Documents. I followed the approach described here. 
 
-https://stackoverflow.com/questions/61512209/how-do-i-create-a-git-repo-from-multiple-directories
+[https://stackoverflow.com/questions/61512209/how-do-i-create-a-git-repo-from-multiple-directories](https://stackoverflow.com/questions/61512209/how-do-i-create-a-git-repo-from-multiple-directories)
+
+
+
+
+
+
+# To init the repo
 
 ```
 echo "# documents" >> README.md
@@ -11,6 +18,11 @@ git branch -M main
 git remote add origin git@github.com:andreavitaletti/documents.git
 git push -u origin main
 ```
+
+```
+git remote show origin
+```
+
 # To download only specific content
 
 ```
